@@ -1,0 +1,2 @@
+# uGentoo
+micro Gentoo builder
