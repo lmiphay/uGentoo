@@ -57,7 +57,7 @@ ln -snf /usr/portage/profiles/$PROFILE etc/portage/make.profile
 
 cat >etc/portage/make.conf <<EOF
 CFLAGS="-Os -pipe -fomit-frame-pointer"
-CXXFLAGS="${CFLAGS}"
+CXXFLAGS="\${CFLAGS}"
 MAKEOPTS="-j9"
 CHOST="x86_64-pc-linux-gnu"
 USE="-acl bindist -gpm -iptables minimal -xattr -X"
