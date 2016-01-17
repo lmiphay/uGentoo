@@ -37,8 +37,6 @@ Follow these steps:
 
 #### References
 
-* [gentoo-upsys](https://github.com/Krishath/gentoo-upsys)
-
 * [minimal base gentoo](http://txt.si/blog/p/minimal-base-linux-gentoo/)
 * [minimal gentoo for raspberry pi](http://dustinhatch.tumblr.com/post/38118003177/minimalist-gentoo-for-the-raspberry-pi)
 * [ratgentoo](http://www.anticore.org/ratgentoo/index.php?page=001)
