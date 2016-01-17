@@ -1,0 +1,12 @@
+#!/bin/bash
+
+pkgdir=${PORTAGE_CONFIGROOT:-"/"}"/var/db/pkg"
+
+cd $pkgdir
+
+for file in $(find . -name SIZE | sort) ; do
+    size=$(cat $file)
+    printf "%10d %s\n" $size $(dirname $file | sed -e 's/^\.\///')
+done | sort -n
+
+exit 0
